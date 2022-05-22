@@ -1,0 +1,395 @@
+.start
+{
+	background: url(https://images.unsplash.com/photo-1496087347462-c47891c1245c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7faaaa9140c6e257e0b0a5b27204e79&auto=format&fit=crop&w=1037&q=80);
+	background-position: center;
+	font-family: Lato;
+	padding-bottom: 16%;
+}
+html
+{
+	height: 100%;
+}
+#content
+{
+	color: #cccccc;
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px, 4px, 3px, gray;
+}
+h1
+{
+	font-weight: 700;
+	font-size: 5em;
+}
+hr
+{
+	width: 400px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid rgba(0,0,0,0.2); 
+}
+ul {
+	height: 80px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #737373;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d9d9d9;
+}
+#navbar
+{
+	position:fixed;
+	width: 100%;
+}
+#navbar img
+{
+	margin-bottom: 15%;
+	width:6%;
+	margin-left: 5%;
+}
+#about {
+	background-color: white;
+	margin-top:0%;
+	padding-left: 10%;
+	padding-right: 50%;
+	text-align: left;
+	font-size: 20px;
+}
+.container {
+	height: 90%;
+}
+.crousel 
+{
+	width:100%;
+	height: 100%;
+}
+.crousel1
+{
+	width:100%;
+	height: 100%;
+	padding-bottom: 3%;
+}
+.testimonial
+{
+	background-color: #dbdbdb;
+}
+.section
+{
+	padding-bottom: 45%;
+	background-color: white;
+	/*padding-left: 50%;*/
+	position: relative;
+}
+#left
+{
+	padding-left: 10%;
+	text-align: left;
+	float:left; 
+	width:50%;
+
+}
+#right
+{
+	padding-left: 2%;
+	padding-right: 10%;
+	float:right; 
+	width:50%;
+}
+
+/*Section Counter*/
+/* .*{
+  box-sizing: border-box;
+} */
+
+/* Float four columns side by side */
+.column{
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+
+}
+
+.row {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+.card:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    }
+
+.fa {font-size:50px;}
+
+/*Markets We cater*/
+.marketleft
+{
+	width:50%;
+	padding-left: 10%;
+	padding-right: 5%;
+	float: left;
+}
+.marketright
+{
+	width:50%;
+	padding-right: 10%;
+	float: right;
+}
+/*Contact Us*/
+#contact
+{
+	background-color: white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 10%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  padding-bottom: 50%;
+}
+#slide
+{
+	padding-bottom: 10%; 
+	padding-left: 20%; 
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 150%; /* Full width */
+    padding-left: 10px; /* Some padding */  
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #000000;
+}
+
+/* Add a background color and some padding around the form */
+.containerr {
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 10%;
+    width: 50%;
+}
+#contact
+{
+	background-color: white;
+
+}
+.sec
+{
+	background-color: #D3D3D3;
+}
+.left
+{
+	padding-left: 5%;
+	text-align: left;
+	float:left; 
+	width:50%;
+}
+.right
+{
+	padding-left: 5%;
+	padding-right: 10%;
+	text-align: left;
+	float:right; 
+	width:50%;
+}
+
+/*Live Chat*/
+* {box-sizing: border-box;}
+
+/* Button used to openp the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  background: url(https://static-v.tawk.to/a-v3-39/images/bubbles/42.png);
+  color: white;
+  padding-top: 35px; 
+  padding-bottom: 35px;
+  margin-right: 1%;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 145px;
+}
+/*About Metal Smith*/
+
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #05c13b;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/*Products Range*/
+
+#products
+{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container123{
+  position: relative;
+  width: 30%;
+  display: inline-block;
+}
+
+/* Make the image to responsive */
+.image123 {
+  width: 100%;
+  height: 100%;
+}
+.image1234 {
+  width: 100%;
+  height: 350px;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #818181;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container123:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
